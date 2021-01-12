@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[960, 572]"/>
+    </Property>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="mouseMoved" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="formMouseMoved"/>
+    <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="formMouseEntered"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,62,0,0,3,-66"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="true"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="create_date">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="137"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="350" y="20" width="270" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/desk_topbar.png"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="20" y="20" width="920" height="20"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JInternalFrame" name="jInternalFrame1">
+      <Properties>
+        <Property name="closable" type="boolean" value="true"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[100, 40]"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="" noResource="true"/>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="visible" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseMoved" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jInternalFrame1MouseMoved"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jInternalFrame1MouseEntered"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="40" y="40" width="890" height="500"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="870" height="760"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel1">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" pref="168" max="-2" attributes="0"/>
+                          <EmptySpace min="52" pref="52" max="-2" attributes="0"/>
+                          <Component id="a1" min="-2" pref="260" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" pref="168" max="-2" attributes="0"/>
+                          <EmptySpace min="52" pref="52" max="-2" attributes="0"/>
+                          <Component id="a3" min="-2" pref="260" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="300" pref="300" max="-2" attributes="0"/>
+                          <Component id="co1" min="-2" pref="120" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="300" pref="300" max="-2" attributes="0"/>
+                          <Component id="l9" min="-2" pref="130" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="390" pref="390" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="110" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="280" pref="280" max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                          <Component id="jLabel7" min="-2" pref="168" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="450" pref="450" max="-2" attributes="0"/>
+                          <Component id="a2" min="-2" pref="260" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" pref="168" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="460" pref="460" max="-2" attributes="0"/>
+                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="300" pref="300" max="-2" attributes="0"/>
+                          <Component id="p2" min="-2" pref="260" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="300" pref="300" max="-2" attributes="0"/>
+                          <Component id="a4" min="-2" pref="140" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="300" pref="300" max="-2" attributes="0"/>
+                          <Component id="p1" min="-2" pref="260" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="260" pref="260" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" pref="340" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jLabel4" min="-2" pref="870" max="-2" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="220" pref="220" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                      <Component id="a1" min="-2" pref="30" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                      <Component id="a3" min="-2" pref="30" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="100" pref="100" max="-2" attributes="0"/>
+                                  <Component id="jLabel9" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="270" pref="270" max="-2" attributes="0"/>
+                                  <Component id="co1" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="520" pref="520" max="-2" attributes="0"/>
+                                  <Component id="l9" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="130" pref="130" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="680" pref="680" max="-2" attributes="0"/>
+                                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="270" pref="270" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="530" pref="530" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="270" pref="270" max="-2" attributes="0"/>
+                                  <Component id="a2" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="400" pref="400" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="520" pref="520" max="-2" attributes="0"/>
+                                  <Component id="jButton2" min="-2" pref="53" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="460" pref="460" max="-2" attributes="0"/>
+                                  <Component id="p2" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="610" pref="610" max="-2" attributes="0"/>
+                                  <Component id="a4" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="400" pref="400" max="-2" attributes="0"/>
+                                  <Component id="p1" min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="160" pref="160" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" pref="50" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel4" alignment="0" min="-2" pref="1120" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Calibri" size="24" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="99" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Welcome!"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Calibri" size="24" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="99" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Create your Amazon Account now"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="18" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Your Name :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="a1">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="137"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel7">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="18" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Mobile Number :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="co1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="224">
+                        <StringItem index="0" value="Select Code"/>
+                        <StringItem index="1" value="Afghanistan +93"/>
+                        <StringItem index="2" value="Aland Islands +358"/>
+                        <StringItem index="3" value="Albania +355"/>
+                        <StringItem index="4" value="Algeria +213"/>
+                        <StringItem index="5" value="American Samoa +1"/>
+                        <StringItem index="6" value="Andorra +376"/>
+                        <StringItem index="7" value="Angola +244"/>
+                        <StringItem index="8" value="Antigua and Barbuda +1"/>
+                        <StringItem index="9" value="Argentina +54"/>
+                        <StringItem index="10" value="Armenia +374"/>
+                        <StringItem index="11" value="Aruba +297"/>
+                        <StringItem index="12" value="Australia +61"/>
+                        <StringItem index="13" value="Austria +43"/>
+                        <StringItem index="14" value="Azerbaijan +994"/>
+                        <StringItem index="15" value="Bahamas, The +1"/>
+                        <StringItem index="16" value="Bahrain +973"/>
+                        <StringItem index="17" value="Bangladesh +880"/>
+                        <StringItem index="18" value="Barbados +1"/>
+                        <StringItem index="19" value="Belarus +375"/>
+                        <StringItem index="20" value="Belgium +32"/>
+                        <StringItem index="21" value="Belize +501"/>
+                        <StringItem index="22" value="Benin +229"/>
+                        <StringItem index="23" value="Bermuda +1"/>
+                        <StringItem index="24" value="Bhutan +975"/>
+                        <StringItem index="25" value="Bolivia +591"/>
+                        <StringItem index="26" value="Bosnia and Herzegovina +387"/>
+                        <StringItem index="27" value="Botswana +267"/>
+                        <StringItem index="28" value="Brazil +55"/>
+                        <StringItem index="29" value="Brunei Darussalam +673"/>
+                        <StringItem index="30" value="Bulgaria +359"/>
+                        <StringItem index="31" value="Burkina Faso +226"/>
+                        <StringItem index="32" value="Burundi +257"/>
+                        <StringItem index="33" value="Cambodia +855"/>
+                        <StringItem index="34" value="Cameroon +237"/>
+                        <StringItem index="35" value="Canada +1"/>
+                        <StringItem index="36" value="Cape Verde +238"/>
+                        <StringItem index="37" value="Cayman Islands +1"/>
+                        <StringItem index="38" value="Central African Republic +236"/>
+                        <StringItem index="39" value="Chad +235"/>
+                        <StringItem index="40" value="Chile +56"/>
+                        <StringItem index="41" value="China +86"/>
+                        <StringItem index="42" value="Colombia +57"/>
+                        <StringItem index="43" value="Comoros +269"/>
+                        <StringItem index="44" value="Congo +242"/>
+                        <StringItem index="45" value="Congo, Democratic Republic of +243"/>
+                        <StringItem index="46" value="Cook Islands +682"/>
+                        <StringItem index="47" value="Costa Rica +506"/>
+                        <StringItem index="48" value="Croatia +385"/>
+                        <StringItem index="49" value="Cuba +53"/>
+                        <StringItem index="50" value="Cyprus +357"/>
+                        <StringItem index="51" value="Czech Republic +420"/>
+                        <StringItem index="52" value="Denmark +45"/>
+                        <StringItem index="53" value="Djibouti +253"/>
+                        <StringItem index="54" value="Dominica, Commonwealth of +1"/>
+                        <StringItem index="55" value="Dominican Republic +1"/>
+                        <StringItem index="56" value="East Timor +670"/>
+                        <StringItem index="57" value="Ecuador +593"/>
+                        <StringItem index="58" value="Egypt +20"/>
+                        <StringItem index="59" value="El Salvador +503"/>
+                        <StringItem index="60" value="Equatorial Guinea +240"/>
+                        <StringItem index="61" value="Eritrea +291"/>
+                        <StringItem index="62" value="Estonia +372"/>
+                        <StringItem index="63" value="Ethiopia +251"/>
+                        <StringItem index="64" value="Falkland Islands +500"/>
+                        <StringItem index="65" value="Faroe Islands +298"/>
+                        <StringItem index="66" value="Fiji +679"/>
+                        <StringItem index="67" value="Finland +358"/>
+                        <StringItem index="68" value="France +33"/>
+                        <StringItem index="69" value="French Guiana +594"/>
+                        <StringItem index="70" value="French Polynesia +689"/>
+                        <StringItem index="71" value="Gabon +241"/>
+                        <StringItem index="72" value="Gambia, The +220"/>
+                        <StringItem index="73" value="Georgia +995"/>
+                        <StringItem index="74" value="Germany +49"/>
+                        <StringItem index="75" value="Ghana +233"/>
+                        <StringItem index="76" value="Gibraltar +350"/>
+                        <StringItem index="77" value="Greece +30"/>
+                        <StringItem index="78" value="Greenland +299"/>
+                        <StringItem index="79" value="Grenada +1"/>
+                        <StringItem index="80" value="Guadeloupe +590"/>
+                        <StringItem index="81" value="Guam +1"/>
+                        <StringItem index="82" value="Guatemala +502"/>
+                        <StringItem index="83" value="Guinea +224"/>
+                        <StringItem index="84" value="Guinea-Bissau +245"/>
+                        <StringItem index="85" value="Guyana +592"/>
+                        <StringItem index="86" value="Haiti +509"/>
+                        <StringItem index="87" value="Honduras +504"/>
+                        <StringItem index="88" value="Hong Kong +852"/>
+                        <StringItem index="89" value="Hungary +36"/>
+                        <StringItem index="90" value="Iceland +354"/>
+                        <StringItem index="91" value="India +91"/>
+                        <StringItem index="92" value="Indonesia +62"/>
+                        <StringItem index="93" value="Iran, Islamic Republic of +98"/>
+                        <StringItem index="94" value="Iraq +964"/>
+                        <StringItem index="95" value="Ireland, Republic of +353"/>
+                        <StringItem index="96" value="Israel +972"/>
+                        <StringItem index="97" value="Italy +39"/>
+                        <StringItem index="98" value="Ivory Coast (Cote D&apos;ivoire) +225"/>
+                        <StringItem index="99" value="Jamaica +1"/>
+                        <StringItem index="100" value="Japan +81"/>
+                        <StringItem index="101" value="Jordan +962"/>
+                        <StringItem index="102" value="Kazakhstan +7"/>
+                        <StringItem index="103" value="Kenya +254"/>
+                        <StringItem index="104" value="Kiribati +686"/>
+                        <StringItem index="105" value="Korea, Democratic People&apos;s Republic of +850"/>
+                        <StringItem index="106" value="Korea, Republic of +82"/>
+                        <StringItem index="107" value="Kuwait +965"/>
+                        <StringItem index="108" value="Kyrgyzstan +996"/>
+                        <StringItem index="109" value="Lao, People&apos;s Democratic Republic +856"/>
+                        <StringItem index="110" value="Latvia +371"/>
+                        <StringItem index="111" value="Lebanon +961"/>
+                        <StringItem index="112" value="Lesotho +266"/>
+                        <StringItem index="113" value="Liberia +231"/>
+                        <StringItem index="114" value="Libya +218"/>
+                        <StringItem index="115" value="Liechtenstein +423"/>
+                        <StringItem index="116" value="Lithuania +370"/>
+                        <StringItem index="117" value="Luxembourg +352"/>
+                        <StringItem index="118" value="Macao +853"/>
+                        <StringItem index="119" value="Macedonia, The Former Yugoslav Republic of +389"/>
+                        <StringItem index="120" value="Madagascar +261"/>
+                        <StringItem index="121" value="Malawi +265"/>
+                        <StringItem index="122" value="Malaysia +60"/>
+                        <StringItem index="123" value="Maldives +960"/>
+                        <StringItem index="124" value="Mali +223"/>
+                        <StringItem index="125" value="Malta +356"/>
+                        <StringItem index="126" value="Marshall Islands +692"/>
+                        <StringItem index="127" value="Martinique +596"/>
+                        <StringItem index="128" value="Mauritania +222"/>
+                        <StringItem index="129" value="Mauritius +230"/>
+                        <StringItem index="130" value="Mexico +52"/>
+                        <StringItem index="131" value="Micronesia, Federated States of +691"/>
+                        <StringItem index="132" value="Moldova, Republic of +373"/>
+                        <StringItem index="133" value="Monaco +377"/>
+                        <StringItem index="134" value="Mongolia +976"/>
+                        <StringItem index="135" value="Montenegro +382"/>
+                        <StringItem index="136" value="Montserrat +1"/>
+                        <StringItem index="137" value="Morocco +212"/>
+                        <StringItem index="138" value="Mozambique +258"/>
+                        <StringItem index="139" value="Myanmar +95"/>
+                        <StringItem index="140" value="Namibia +264"/>
+                        <StringItem index="141" value="Nauru +674"/>
+                        <StringItem index="142" value="Nepal +977"/>
+                        <StringItem index="143" value="Netherlands +31"/>
+                        <StringItem index="144" value="Netherlands Antilles +0"/>
+                        <StringItem index="145" value="New Caledonia +687"/>
+                        <StringItem index="146" value="New Zealand +64"/>
+                        <StringItem index="147" value="Nicaragua +505"/>
+                        <StringItem index="148" value="Niger +227"/>
+                        <StringItem index="149" value="Nigeria +234"/>
+                        <StringItem index="150" value="Niue +683"/>
+                        <StringItem index="151" value="Norfolk Island +672"/>
+                        <StringItem index="152" value="Norway +47"/>
+                        <StringItem index="153" value="Oman +968"/>
+                        <StringItem index="154" value="Pakistan +92"/>
+                        <StringItem index="155" value="Palau +680"/>
+                        <StringItem index="156" value="Palestinian Territories +970"/>
+                        <StringItem index="157" value="Panama +507"/>
+                        <StringItem index="158" value="Papua New Guinea +675"/>
+                        <StringItem index="159" value="Paraguay +595"/>
+                        <StringItem index="160" value="Peru +51"/>
+                        <StringItem index="161" value="Philippines +63"/>
+                        <StringItem index="162" value="Poland +48"/>
+                        <StringItem index="163" value="Portugal +351"/>
+                        <StringItem index="164" value="Puerto Rico +1"/>
+                        <StringItem index="165" value="Qatar +974"/>
+                        <StringItem index="166" value="Reunion +262"/>
+                        <StringItem index="167" value="Romania +40"/>
+                        <StringItem index="168" value="Russian Federation +7"/>
+                        <StringItem index="169" value="Rwanda +250"/>
+                        <StringItem index="170" value="Saint Kittsand Nevis +1"/>
+                        <StringItem index="171" value="Saint Lucia +1"/>
+                        <StringItem index="172" value="Saint Pierre and Miquelon +508"/>
+                        <StringItem index="173" value="Saint Vincent and the Grenadines +1"/>
+                        <StringItem index="174" value="Samoa +685"/>
+                        <StringItem index="175" value="San Marino +378"/>
+                        <StringItem index="176" value="Sao Tome and Principe +239"/>
+                        <StringItem index="177" value="Saudi Arabia +966"/>
+                        <StringItem index="178" value="Senegal +221"/>
+                        <StringItem index="179" value="Serbia +381"/>
+                        <StringItem index="180" value="Seychelles +248"/>
+                        <StringItem index="181" value="Sierra Leone +232"/>
+                        <StringItem index="182" value="Singapore +65"/>
+                        <StringItem index="183" value="Slovakia +421"/>
+                        <StringItem index="184" value="Slovenia +386"/>
+                        <StringItem index="185" value="Solomon Islands +677"/>
+                        <StringItem index="186" value="Somalia +252"/>
+                        <StringItem index="187" value="South Africa +27"/>
+                        <StringItem index="188" value="South Sudan +211"/>
+                        <StringItem index="189" value="Spain +34"/>
+                        <StringItem index="190" value="Sri Lanka +94"/>
+                        <StringItem index="191" value="Sudan +249"/>
+                        <StringItem index="192" value="Suriname +597"/>
+                        <StringItem index="193" value="Swaziland +268"/>
+                        <StringItem index="194" value="Sweden +46"/>
+                        <StringItem index="195" value="Switzerland +41"/>
+                        <StringItem index="196" value="Syria +963"/>
+                        <StringItem index="197" value="Taiwan +886"/>
+                        <StringItem index="198" value="Tajikistan +992"/>
+                        <StringItem index="199" value="Tanzania, United Republic of +255"/>
+                        <StringItem index="200" value="Thailand +66"/>
+                        <StringItem index="201" value="Togo +228"/>
+                        <StringItem index="202" value="Tonga +676"/>
+                        <StringItem index="203" value="Trinidad and Tobago +1"/>
+                        <StringItem index="204" value="Tunisia +216"/>
+                        <StringItem index="205" value="Turkey +90"/>
+                        <StringItem index="206" value="Turkmenistan +993"/>
+                        <StringItem index="207" value="Turks and Caicos Islands +1"/>
+                        <StringItem index="208" value="Tuvalu +688"/>
+                        <StringItem index="209" value="Uganda +256"/>
+                        <StringItem index="210" value="Ukraine +380"/>
+                        <StringItem index="211" value="United Arab Emirates +971"/>
+                        <StringItem index="212" value="United Kingdom +44"/>
+                        <StringItem index="213" value="United States +1"/>
+                        <StringItem index="214" value="Uruguay +598"/>
+                        <StringItem index="215" value="Uzbekistan +998"/>
+                        <StringItem index="216" value="Vanuatu +678"/>
+                        <StringItem index="217" value="Venezuela +58"/>
+                        <StringItem index="218" value="Vietnam +84"/>
+                        <StringItem index="219" value="Virgin Islands, British +1"/>
+                        <StringItem index="220" value="Virgin Islands, US +1"/>
+                        <StringItem index="221" value="Yemen +967"/>
+                        <StringItem index="222" value="Zambia +260"/>
+                        <StringItem index="223" value="Zimbabwe +263"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JTextField" name="a2">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel8">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="18" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Email  :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="a3">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="18" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Enter Password :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JPasswordField" name="p1">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="18" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Re EnterPassword :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JPasswordField" name="p2">
+                </Component>
+                <Component class="javax.swing.JLabel" name="l9">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Images/Img2.jpg"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wingdings 3" size="24" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#xf051;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel10">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="18" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Enter Captcha :"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="a4">
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="24" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Create Account"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Images/amalogo_bg.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="jLabel4"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="tictac">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/tictactoe.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tictacMouseClicked"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="30" y="70" width="100" height="80"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="amzon">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/Picture2.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="amzonMouseClicked"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="50" y="160" width="130" height="110"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="amzn_label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Calibri" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Amazon"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="50" y="240" width="70" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="calc_label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Calibri" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Calculator"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="50" y="350" width="90" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="calc">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/calculator.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="calcMouseClicked"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="40" y="260" width="130" height="110"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="shut">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/shut.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="shutMouseClicked"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="860" y="460" width="70" height="80"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tictac_label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Calibri" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tic Tac Toe"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="50" y="140" width="90" height="30"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wallp3">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/wallpaper-icon.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="wallp3MouseClicked"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="50" y="380" width="70" height="60"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Calibri" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="&lt;HTML&gt; &lt;HEAD&gt; &lt;/HEAD&gt; &lt;BODY&gt;Change &lt;BR&gt; Wallpaper &lt;/BODY&gt; &lt;/HTML&gt;"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="50" y="440" width="80" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pay1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/ama_pay.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pay1MouseClicked"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="190" y="50" width="100" height="90"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pay_label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Calibri" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Amazon Pay"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="170" y="120" width="110" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wetrans">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/WeTransfer_logo.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="wetransMouseClicked"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="160" y="140" width="110" height="90"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wetrans_label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Calibri" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="WeTransfer"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="wetrans_labelMouseClicked"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="wetrans_labelKeyPressed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="170" y="210" width="110" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pay">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/ama_pay.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="payMouseClicked"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="190" y="50" width="100" height="90"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pay_label1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Calibri" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Amazon Pay"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="170" y="120" width="110" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="create_bg">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/seola_wall.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel2"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="137"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="20" y="20" width="920" height="520"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dell">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/dellmonitor.png"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="960" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
